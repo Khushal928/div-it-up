@@ -1,4 +1,5 @@
-#H1 Review and Self Study:
+<h1> Review and Self Study</h1>
+
 ```javascript
 const arr = ["hi",how"","you"];
 const first = arr.pop();
@@ -13,27 +14,23 @@ const first = arr.slice(0, 1);// first will store  hi
 const rem = arr.slice(1);     // rem will store how and you
 ```
 
+<h1>Challenge</h1>
+<p>
+ since age points 1 and Age points 2, age==Age returns false. other than this, using === compares not only values but also its data types
+</p>
 
 
-#h2 Assignment
-When we are building a shopping cart, we need many things which include user name, his password, an array of all items which contain objects which probably include a name of item and number of such items<br>>
+
+<h1>Assignment</h1>
+When we are building a shopping cart, we need many things which include user name, his password, an array of all items which contain objects which probably include a name of item and number of such items<br>
 
 
 <p>
-first one is username which is a string
+<ul>
+<li>username - username is stored in a String</li>
+<li>password - it might be an alpha-numeric one. so its string</li>
+<li>cart-items - an array of all items in the cart</li>
+<li>a list of objects where each object can store a name and a value where value is number of items of that type</li>
+</ul>
 </p>
-<p>
-next is alpha nemeric password which is again a string 
-</p>
-<p>
-an array of all items in the cart
-</p>
-<p>
-an object in the follow whose object's format is something like following
-```
-name : 
-value:
-```
-<br>
-where if a new item is introduced to cart a new object is created and value will be number of that items thrown into cart
-</p>
+
