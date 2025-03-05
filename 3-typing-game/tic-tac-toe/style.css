@@ -1,0 +1,22 @@
+.cell{
+    border: 2px solid black;
+}
+
+
+
+
+body{
+    background-color: aqua;
+
+}
+
+.highlight{
+    border-color: black;
+    border-width: 6px;
+    border-style: solid;
+  }
+
+  #message{
+    text-align: center;
+    font-size: 50px;
+  }
