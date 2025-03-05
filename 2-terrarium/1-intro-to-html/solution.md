@@ -4,6 +4,5 @@
 <h1>
 Assignment
 </h1>
-<p>
-here is my (link)[/basic.html] to a basic html web page
-</p>
+
+here is my [link](/2-terrarium/1-intro-to-html/basic.html) to a basic html web page
