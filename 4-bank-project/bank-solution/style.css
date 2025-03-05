@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgb(223, 174, 134);
+}
+
+
+h1{
+    text-align: center;
+}
+
+#header{
+    margin-top: 75px;
+}
+
+/* form{
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 3rem;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+#app{
+    width: 400px;
+    height: 700px;
+    background: rgb(247, 243, 243);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+input{
+    border: solid rgb(184, 64, 64);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 1rem;
+  }
+
+  #button1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 1rem;
+    height: 35px;
+    border: none;
+    background-color: rgb(235, 154, 154);
+  }
+
+  #button1:hover{
+    background-color:red;
+    color: whitesmoke;
+  }
+
+
+#Transactionstable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #Transactionstable td, #Transactionstable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Transactionstable tr:nth-child(even){background-color: rgb(235, 154, 154);}
+  
+
+  
+  #Transactionstable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:rgb(235, 154, 154);
+    color: white;
+  }
+
+
+  #stylelink{
+    background-color: rgb(235, 154, 154);
+    text-decoration: none;
+    
+  }
+
+  #stylelink1{
+    background-color: rgb(235, 154, 154);
+    text-decoration: none;
+    float:right;
+    color: white;
+    border-radius: 1rem;
+    width: 70px;
+    height: 25px;
+    margin: top 25px ;
+    text-align: center;
+    align-items: center;
+  }
+
+   #loginError{
+    color: red;
+   }
+
+   #RegisterError{
+    color: red;
+   }
